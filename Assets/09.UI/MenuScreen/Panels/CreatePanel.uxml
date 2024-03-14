@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="create-panel" style="background-color: rgba(224, 56, 56, 0.7); flex-grow: 1; align-items: center; justify-content: center;">
+        <ui:VisualElement name="create-lobby" style="width: 80%; background-color: rgb(219, 219, 219); border-top-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px; border-top-width: 3px; border-right-width: 3px; border-bottom-width: 3px; border-left-width: 3px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); padding-top: 35px; padding-bottom: 35px; padding-right: 25px; padding-left: 25px;">
+            <ui:TextField picking-mode="Ignore" value="방 이름을 입력하세요." name="text-lobby-name" class="nps-font name-text" />
+            <ui:Button text="만들기" parse-escape-sequences="true" display-tooltip-when-elided="true" name="btn-create" class="block-btn nps-font" />
+        </ui:VisualElement>
+        <ui:VisualElement name="status-box" style="width: 80%; padding-top: 30px;">
+            <ui:Label tabindex="-1" text="만들 로비의 이름을 입력하세요" parse-escape-sequences="true" display-tooltip-when-elided="true" name="status-label" class="nps-font" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

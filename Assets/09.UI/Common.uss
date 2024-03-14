@@ -1,0 +1,9 @@
+.nps-font {
+    -unity-font: url('project://database/Assets/NPSfont_regular.otf?fileID=12800000&guid=c52242153398f1a4b8b63d725b1d81a1&type=3#NPSfont_regular');
+    -unity-font-definition: initial;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    -unity-text-outline-width: 2px;
+    -unity-text-outline-color: rgba(0, 0, 0, 0.52);
+    -unity-font-style: bold;
+}

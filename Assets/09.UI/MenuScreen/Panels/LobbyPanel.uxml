@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="lobby-panel" style="align-items: center; justify-content: center; flex-grow: 1;">
+        <ui:VisualElement name="inner-box" style="width: 80%; height: 100%;">
+            <ui:Label tabindex="-1" text="게임 로비" parse-escape-sequences="true" display-tooltip-when-elided="true" name="title-label" class="nps-font" style="font-size: 50px; -unity-text-align: upper-center; margin-bottom: 20px;" />
+            <ui:ScrollView name="lobby-scroll" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/04.Sprites/Frame.png?fileID=21300000&amp;guid=f3191ce532df45945bd3de2910ebb57c&amp;type=3#Frame&apos;); -unity-slice-left: 55; -unity-slice-top: 55; -unity-slice-right: 55; -unity-slice-bottom: 55; -unity-slice-scale: 0.4px; padding-top: 30px; padding-right: 30px; padding-bottom: 30px; padding-left: 30px; margin-bottom: 0; flex-direction: column; flex-wrap: nowrap;" />
+            <ui:Button text="새로고침" parse-escape-sequences="true" display-tooltip-when-elided="true" name="btn-refresh" class="block-btn nps-font" style="margin-top: 10px; background-color: rgb(168, 68, 89); padding-top: 10px; padding-bottom: 25px;" />
+            <ui:Label tabindex="-1" text="참여를 원하는 로비를 선택하세요." parse-escape-sequences="true" display-tooltip-when-elided="true" name="status-label" class="nps-font" style="margin-top: 10px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

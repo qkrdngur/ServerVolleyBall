@@ -1,0 +1,30 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/09.UI/MenuScreen/MenuScreen.uss?fileID=7433441132597879392&amp;guid=f1420dc992fd66040984fc203c393da4&amp;type=3#MenuScreen" />
+    <Style src="project://database/Assets/09.UI/Common.uss?fileID=7433441132597879392&amp;guid=15d6be92721ef1c48b15934aef30a859&amp;type=3#Common" />
+    <ui:VisualElement name="container" class="container">
+        <ui:VisualElement name="screen-container" class="screen-container">
+            <ui:VisualElement name="content" class="content" style="left: -100%;">
+                <ui:VisualElement name="page-one" class="page" style="flex-grow: 1;" />
+                <ui:VisualElement name="page-two" class="page" style="background-color: rgba(57, 106, 192, 0.78);" />
+                <ui:VisualElement name="page-three" class="page" style="background-color: rgba(112, 178, 97, 0.94);" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="tab-container" class="tab-container">
+            <DataVisualElement panel-index="0" name="button-one" class="tab-button">
+                <ui:VisualElement name="icon" picking-mode="Ignore" class="icon" style="background-image: url(&apos;project://database/Assets/04.Sprites/Icons/icon_37.png?fileID=21300000&amp;guid=dfdc0888f4c7afa428396da108a800e7&amp;type=3#icon_37&apos;);" />
+            </DataVisualElement>
+            <DataVisualElement panel-index="1" name="button-two" class="tab-button">
+                <ui:VisualElement name="icon" picking-mode="Ignore" class="icon" style="background-image: url(&apos;project://database/Assets/04.Sprites/Icons/icon_89.png?fileID=21300000&amp;guid=465460778f10fdf43ba5dad7559fd28e&amp;type=3#icon_89&apos;);" />
+            </DataVisualElement>
+            <DataVisualElement panel-index="2" name="button-three" class="tab-button">
+                <ui:VisualElement name="icon" picking-mode="Ignore" class="icon" style="background-image: url(&apos;project://database/Assets/04.Sprites/Icons/icon_93.png?fileID=21300000&amp;guid=21df40527646ac843a58aac9869fcb94&amp;type=3#icon_93&apos;);" />
+            </DataVisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="popup-panel" class="popup-panel off">
+            <ui:VisualElement name="inner-input" style="width: 80%; background-color: rgb(255, 255, 255); border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; padding-top: 15px; padding-bottom: 15px; padding-right: 25px; padding-left: 25px;">
+                <ui:TextField picking-mode="Ignore" value="이름을 입력하세요" name="name-text" class="nps-font name-text" style="font-size: 50px;" />
+                <ui:Button text="확인" parse-escape-sequences="true" display-tooltip-when-elided="true" name="btn-ok" class="nps-font block-btn" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
